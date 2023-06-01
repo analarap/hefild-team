@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 #imagem-perfil{
     text-align: center;
     margin-top: 30px;
@@ -9,11 +13,12 @@
 
 #header{
     height: 700px;
+    margin-top: -100px;
 }
 
 #head{
     height: 500px;
-    background-color: #6C85BD;
+    background-color: #6c85bd;
     margin-top: 100px;
 }
 
@@ -39,7 +44,7 @@
 
 #interessante{
     margin-top: -300px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 #onda-1{
@@ -60,12 +65,32 @@
 }
 
 #navbar{
-    background-color: #A7AED3;
-    padding: 2em;
+    background-color: #6c85bd;
+    padding: 1em;
 }
 
 #curiosidade3{
     margin-top: 20px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#navbar img{
+    width: 70px;
+}
+
+#navbar p{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: right;
+}
+
+#navbar p:hover{
+    color: #cfd6e1;
+    transition: 0.2s;
+    text-decoration: none;
 }
 
 p{
@@ -83,7 +108,7 @@ h4{
 }
 
 #about-video{
-    text-align: center;
+
 }
 
 .text-curiosidade{
@@ -107,7 +132,6 @@ h4{
     height: 230px;
     background-color: #FFFFFF;
     border-radius: 115px;
-    margin-left: 0px;
 }
 
 @font-face {
