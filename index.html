@@ -51,39 +51,30 @@
         </div>
     </div>
 
-    <div id="interessante">
-        <div class="container">
-            <div class="row">
-                <div class="col" id="curiosidade1">
-                    <div class="curiosidade">
-                        <div class="text-curiosidade">
-                            <img src="img/cerebro.png" width="80px">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
+    <!--Inicio curiosidades - bolinhas-->
+    <div class="container" id="interessante">
+        <div class="row">
+            <div class="col-sm-4" id="curiosidade1">
+                <div class="text-curiosidade">
+                    <img src="img/cerebro.png" width="80px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-
-                <div class="col">
-                    <div class="curiosidade" id="curiosidade2">
-                        <div class="text-curiosidade">
-                            <img src="img/lampada.png" width="80px">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-sm-4" id="curiosidade2">
+                <div class="text-curiosidade">
+                    <img src="img/lampada.png" width="80px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-
-                <div class="col">
-                    <div class="curiosidade" id="curiosidade3">
-                        <div class="text-curiosidade">
-                            <img src="img/incapacidade.png" width="80px">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
+            </div>
+            <div class="col-sm-4" id="curiosidade3">
+                <div class="text-curiosidade">
+                    <img src="img/incapacidade.png" width="80px">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
     </div>
-
+    <!--Fim curiosidade - bolinhas-->
 
     <!--Inicio dos cards-->
     <main id="equipe">
@@ -92,9 +83,9 @@
         </div>
 
 
-        <div class="container mt-5">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-4" id="cards">
+                <div class="col-sm-4 d-flex justify-content-center" id="cards">
                     <div class="card" style="width:280px">
                         <img class="card-img-top" src="img/anapupo.jpeg" alt="Card image" style="width:100%">
                         <div class="card-body">
@@ -103,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mx-auto d-block" id="cards">
+                <div class="col-sm-4 d-flex justify-content-center" id="cards">
                     <div class="card" style="width:280px">
                         <img class="card-img-top" src="img/anapupo.jpeg" alt="Card image" style="width:100%">
                         <div class="card-body">
@@ -113,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4" id="cards">
+                <div class="col-sm-4 d-flex justify-content-center" id="cards">
                     <div class="card" style="width:280px">
                         <img class="card-img-top" src="img/anapupo.jpeg" alt="Card image" style="width:100%">
                         <div class="card-body">
@@ -135,33 +126,38 @@
 
     <!--Começo do sobre o projeto-->
     <main id="projeto">
+
         <div class="container-fluid p-5 text-white" id="about">
             <div class="col-sm-12">
                 <div class="container" id="text-headabout">
                     <h1>Sobre o Projeto</h1>
                 </div>
             </div>
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LYjjVram584"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen style="border-radius: 5px ;"></iframe>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-2">
+            <div class="col-sm-12">
+                <div class="container" id="text-headabout">
+                    <iframe class="video-about" src="https://www.youtube.com/embed/LYjjVram584"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen style="border-radius: 5px ;"></iframe>
+                </div>
+            </div>
 
-                        </div>
-                        <div class="col-sm-8" id="about-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam nobis
-                                quia consectetur modi itaque assumenda officia? Neque velit at nostrum? Harum, nemo?
-                                Dignissimos nostrum ab, libero voluptates ratione voluptatem?</p>
-                        </div>
-                        <div class="col-sm-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">
 
-                        </div>
+                    </div>
+                    <div class="col-sm-8" id="about-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam nobis
+                            quia consectetur modi itaque assumenda officia? Neque velit at nostrum? Harum, nemo?
+                            Dignissimos nostrum ab, libero voluptates ratione voluptatem?</p>
+                    </div>
+                    <div class="col-sm-2">
+
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </main>
     <!--Fim sobre o projeto-->
@@ -174,38 +170,37 @@
         </div>
 
 
-        <div class="container mt-5">
+        <div class="col-sm-12">
+            <div class="container" id="text-headabout">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LYjjVram584"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen style="border-radius: 5px ;"></iframe>
+            </div>
+        </div>
+
+        <div class="container">
             <div class="row">
-                <div class="col-sm-4" id="cards">
-                    <div class="card" style="width:280px">
-                        <img class="card-img-top" src="img/anapupo.jpeg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Ana Pupo</h4>
-                            <p class="card-text">Desenvolvedora Web <br> Protótipo Figma</p>
-                        </div>
-                    </div>
+                <div class="col-sm-2">
+
                 </div>
-                <div class="col-sm-4" id="cards">
-                    <div class="card" style="width:280px">
-                        <img class="card-img-top" src="img/anapupo.jpeg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Luiz Guilherme</h4>
-                            <p class="card-text">Banco de Dados <br> Artigo
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-sm-8" id="about-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laboriosam nobis
+                        quia consectetur modi itaque assumenda officia? Neque velit at nostrum? Harum, nemo?
+                        Dignissimos nostrum ab, libero voluptates ratione voluptatem?
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum quidem nemo, dolorem mollitia unde
+                        ducimus voluptates earum tempora alias dicta. Nam fugiat nobis harum, saepe dicta cumque dolore
+                        assumenda at.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, culpa doloribus exercitationem
+                        delectus praesentium, dolorum temporibus quam sapiente aperiam alias omnis ex officiis saepe sit
+                        hic? Sit natus fugiat sequi?</p>
                 </div>
-                <div class="col-sm-4" id="cards">
-                    <div class="card" style="width:280px">
-                        <img class="card-img-top" src="img/anapupo.jpeg" alt="Card image" style="width:100%">
-                        <div class="card-body">
-                            <h4 class="card-title">Henrique Duquinha</h4>
-                            <p class="card-text">Banco de Dados <br> Pitch
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-sm-2">
+
                 </div>
             </div>
+        </div>
+        </div>
         </div>
     </main>
     <!--Fim sobre o tema do pi-->

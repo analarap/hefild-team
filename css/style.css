@@ -4,16 +4,16 @@ html{
 
 #imagem-perfil{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
 #cards{
-    padding: 3em;
+    padding: 1em;
 }
 
 #header{
-    height: 700px;
-    margin-top: -100px;
+    height: 400px;
+
 }
 
 #head{
@@ -28,8 +28,10 @@ html{
 }
 
 #about-text{
-    padding-top: 2em;
+    padding-top: 4em;
     color: #002D82;
+    text-align: center;
+    font-size: 20px;
 }
 
 #text-headabout{
@@ -43,8 +45,7 @@ html{
 }
 
 #interessante{
-    margin-top: -300px;
-    margin-left: 50px;
+    
 }
 
 #onda-1{
@@ -75,6 +76,8 @@ html{
 
 #navbar a{
     text-decoration: none;
+    margin-right: 0;
+    float: right;
 }
 
 #navbar img{
@@ -85,7 +88,10 @@ html{
     color: #FFFFFF;
     text-decoration: none;
     text-align: right;
+    float: right;
+    margin-left: 200;
 }
+
 
 #navbar p:hover{
     color: #cfd6e1;
@@ -98,8 +104,8 @@ p{
 }
 
 h1{
-    margin-top: 2em;
-    font-size: 30px;
+    margin-top: 1em;
+    font-size: 35px;
 }
 
 
@@ -107,17 +113,24 @@ h4{
     font-family: 'dm-bold';
 }
 
-#about-video{
-
+.video-about{
+    padding-top: 3em;
 }
 
 .text-curiosidade{
     text-align: center;
     padding-top: 40px;
+    width: 400px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 200px;
 }
 
 .text-curiosidade p{
     margin-top: 40px;
+    width: 200px;
+    text-align: center;
+    margin-left: 100px;
 }
 
 
@@ -133,6 +146,7 @@ h4{
     background-color: #FFFFFF;
     border-radius: 115px;
 }
+
 
 @font-face {
     font-family: 'futura-bold';
