@@ -65,6 +65,12 @@ html{
     margin-top: 20px;
 }
 
+#text-headsituation{
+    padding-top: 2em;
+    font-family: 'dm-bold';
+    text-align: center;
+}
+
 #navbar{
     background-color: #6c85bd;
     padding: 1em;
@@ -111,6 +117,81 @@ h1{
 
 h4{
     font-family: 'dm-bold';
+}
+
+h3{
+    font-weight: bold;
+    text-align: left;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.fact{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #6c85bd;
+    margin-top: -1px;
+}
+
+.situacao h3{
+    position: absolute;
+    display: inline-block;
+    margin-top: -60px;
+}
+
+.situacao p{
+    position: absolute;
+    display: inline-block;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.situacao2 p{
+    position: absolute;
+    display: inline-block;
+    margin-top: -60px;
+}
+
+.situacao h5{
+    position: absolute;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.fato3{
+    margin-top: 0px;
+}
+
+.retangulo3{
+    width: 20px;
+    height: 420px;
+    background-color: #6c85bd;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.retangulo2{
+    width: 20px;
+    height: 220px;
+    background-color: #6c85bd;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.situacao a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.retangulo{
+    width: 20px;
+    height: 320px;
+    background-color: #6c85bd;
+    margin-left: 40px;
+    margin-top: -5px;
 }
 
 .video-about{
