@@ -8,7 +8,7 @@ html{
 }
 
 #cards{
-    padding: 1em;
+    margin-top: -100px;
 }
 
 #header{
@@ -34,6 +34,15 @@ html{
     font-size: 20px;
 }
 
+#navbar a{
+
+}
+
+#link{
+    display: flex;
+    justify-content: end;
+}
+
 #text-headabout{
     font-family: 'dm-bold';
     text-align: center;
@@ -44,9 +53,6 @@ html{
     background-color: #C5D4EB;
 }
 
-#interessante{
-    
-}
 
 #onda-1{
     margin-left: -80px;
@@ -71,6 +77,10 @@ html{
     text-align: center;
 }
 
+#text-head h1{
+    margin-top: -120px;
+}
+
 #navbar{
     background-color: #6c85bd;
     padding: 1em;
@@ -84,6 +94,9 @@ html{
     text-decoration: none;
     margin-right: 0;
     float: right;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 
 #navbar img{
