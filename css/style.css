@@ -2,6 +2,26 @@ html{
     scroll-behavior: smooth;
 }
 
+#gradiente{
+    background: linear-gradient(to bottom, white, #cfd6e1) no-repeat;
+}
+
+#gradiente2{
+    background: linear-gradient(to bottom, #cfd6e1, #cfd6e1) no-repeat;
+}
+
+#gradiente3{
+    background: linear-gradient(to bottom, #cfd6e1, #6c85bd) no-repeat;
+}
+
+#gradiente4{
+    background: linear-gradient(to bottom, #6c85bd, #003a88) no-repeat;
+}
+
+#gradiente5{
+    background: linear-gradient(to bottom, #073e86, #002a5e) no-repeat;
+}
+
 #imagem-perfil{
     text-align: center;
     margin-top: 32px;
@@ -50,9 +70,6 @@ html{
     color: #002a5e;
 }
 
-#about{
-    background-color: #C5D4EB;
-}
 
 
 #onda-1{
@@ -165,8 +182,7 @@ footer a:hover{
 }
 
 footer{
-    background-color: #003a88;
-    margin-top: -5em;
+    margin-top: -80px;
 }
 
 #link-botao button{
